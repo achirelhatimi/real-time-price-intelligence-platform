@@ -1,4 +1,4 @@
-version: '3'
+version: "3.8"
 
 services:
   nifi:
@@ -7,6 +7,6 @@ services:
     ports:
       - "8443:8443"
     environment:
-      - SINGLE_USER_CREDENTIALS_USERNAME=admin
-      - SINGLE_USER_CREDENTIALS_PASSWORD=adminadminadmin
-  restart: always  
+      SINGLE_USER_CREDENTIALS_USERNAME: admin
+      SINGLE_USER_CREDENTIALS_PASSWORD: adminadminadmin
+    restart: always
