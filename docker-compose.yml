@@ -9,4 +9,4 @@ services:
     environment:
       - SINGLE_USER_CREDENTIALS_USERNAME=admin
       - SINGLE_USER_CREDENTIALS_PASSWORD=adminadminadmin
-    restart: always
+  restart: always  
