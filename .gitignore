@@ -1,0 +1,5 @@
+produits.json
+produits_propres.json
+*.pyc
+__pycache__/
+.scrapy/
