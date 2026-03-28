@@ -1,5 +1,10 @@
 produits.json
 produits_propres.json
+produits_bigquery.jsonl
 *.pyc
 __pycache__/
 .scrapy/
+diesel-patrol-491520-j8-16dd83a23f21.json
+target/
+dbt_packages/
+charger_bigquery.py
