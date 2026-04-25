@@ -13,7 +13,7 @@ L'API est prête et testée. Voici tout ce dont tu as besoin.
 🔗 ACCÈS API
 ────────────────────────────────────────────────────
 
-URL de base : http://<MON_IP>:8000
+URL de base : http://192.168.1.105:8000
 
 Endpoints principaux :
   • /stats        → Prix moyen/médiane par site
