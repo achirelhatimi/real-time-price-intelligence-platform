@@ -6,7 +6,7 @@ import requests
 import json
 import sys
 
-URL de base : http://192.168.1.105:8000
+BASE_URL = "http://192.168.1.105:8000"
 
 def test_endpoint(nom, url, cle_attendue=None):
     """Teste un endpoint et affiche le résultat"""
