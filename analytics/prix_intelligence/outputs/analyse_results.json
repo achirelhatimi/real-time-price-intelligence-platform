@@ -1,0 +1,1074 @@
+{
+  "meta": {
+    "date_analyse": "2026-04-25 02:16",
+    "nb_produits": 2647,
+    "nb_categories": 5,
+    "sites": [
+      "ikea",
+      "jumia",
+      "kitea"
+    ],
+    "periode_historique": "30 jours",
+    "note_production": "Source: Google Cloud Bigtable — mise à jour quotidienne"
+  },
+  "stats_par_site": {
+    "moyenne": {
+      "ikea": 4230.08,
+      "jumia": 1306.44,
+      "kitea": 3190.01
+    },
+    "mediane": {
+      "ikea": 2697.0,
+      "jumia": 850.0,
+      "kitea": 2295.0
+    },
+    "ecart_type": {
+      "ikea": 4321.57,
+      "jumia": 1187.71,
+      "kitea": 3242.22
+    },
+    "minimum": {
+      "ikea": 79.0,
+      "jumia": 27.99,
+      "kitea": 49.0
+    },
+    "maximum": {
+      "ikea": 29950.0,
+      "jumia": 6145.0,
+      "kitea": 18995.0
+    },
+    "count": {
+      "ikea": 307,
+      "jumia": 1128,
+      "kitea": 1212
+    }
+  },
+  "stats_par_categorie": {
+    "moyenne": {
+      "Salon Et Sejour": 3687.26,
+      "Chambre Adulte": 2281.86,
+      "Salle A Manger": 2261.25,
+      "Rangement": 2074.11,
+      "Mobilier Pro": 1899.72
+    },
+    "mediane": {
+      "Salon Et Sejour": 1999.0,
+      "Chambre Adulte": 1499.0,
+      "Salle A Manger": 1299.0,
+      "Rangement": 1499.5,
+      "Mobilier Pro": 1499.0
+    },
+    "ecart_type": {
+      "Salon Et Sejour": 4493.71,
+      "Chambre Adulte": 2289.81,
+      "Salle A Manger": 2629.82,
+      "Rangement": 1656.73,
+      "Mobilier Pro": 1722.58
+    },
+    "count": {
+      "Salon Et Sejour": 584,
+      "Chambre Adulte": 750,
+      "Salle A Manger": 640,
+      "Rangement": 276,
+      "Mobilier Pro": 397
+    }
+  },
+  "promotions": {
+    "nb_produits": {
+      "ikea": 307,
+      "jumia": 1128,
+      "kitea": 1212
+    },
+    "nb_promos": {
+      "ikea": 0,
+      "jumia": 826,
+      "kitea": 630
+    },
+    "taux_promo": {
+      "ikea": 0.0,
+      "jumia": 73.0,
+      "kitea": 52.0
+    },
+    "remise_moy": {
+      "ikea": null,
+      "jumia": 28.73,
+      "kitea": 28.35
+    },
+    "remise_max": {
+      "ikea": null,
+      "jumia": 75.0,
+      "kitea": 78.6
+    }
+  },
+  "shapiro": {
+    "ikea": {
+      "stat": 0.7952,
+      "p_value": 0.0,
+      "normal": false
+    },
+    "jumia": {
+      "stat": 0.8505,
+      "p_value": 0.0,
+      "normal": false
+    },
+    "kitea": {
+      "stat": 0.7131,
+      "p_value": 0.0,
+      "normal": false
+    }
+  },
+  "kruskal_categories": {
+    "stat": 55.3807,
+    "p_value": 0.0
+  },
+  "kruskal_sites": {
+    "stat": 515.0679,
+    "p_value": 0.0
+  },
+  "mann_whitney": {
+    "Chambre Adulte": {
+      "ikea_vs_jumia": {
+        "stat": 32823.5,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_ikea": 2495.0,
+        "median_jumia": 790.0,
+        "plus_cher": "ikea"
+      },
+      "ikea_vs_kitea": {
+        "stat": 10874.5,
+        "p_value": 0.59552,
+        "significatif": false,
+        "median_ikea": 2495.0,
+        "median_kitea": 2895.0,
+        "plus_cher": "kitea"
+      },
+      "jumia_vs_kitea": {
+        "stat": 19621.5,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_jumia": 790.0,
+        "median_kitea": 2895.0,
+        "plus_cher": "kitea"
+      }
+    },
+    "Mobilier Pro": {
+      "ikea_vs_jumia": {
+        "stat": 3100.0,
+        "p_value": 0.00068,
+        "significatif": true,
+        "median_ikea": 1538.5,
+        "median_jumia": 660.0,
+        "plus_cher": "ikea"
+      },
+      "ikea_vs_kitea": {
+        "stat": 1607.0,
+        "p_value": 0.015796,
+        "significatif": true,
+        "median_ikea": 1538.5,
+        "median_kitea": 1999.0,
+        "plus_cher": "kitea"
+      },
+      "jumia_vs_kitea": {
+        "stat": 6458.5,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_jumia": 660.0,
+        "median_kitea": 1999.0,
+        "plus_cher": "kitea"
+      }
+    },
+    "Rangement": {
+      "ikea_vs_kitea": {
+        "stat": 7292.0,
+        "p_value": 0.001304,
+        "significatif": true,
+        "median_ikea": 2499.5,
+        "median_kitea": 1495.0,
+        "plus_cher": "ikea"
+      }
+    },
+    "Salle A Manger": {
+      "ikea_vs_jumia": {
+        "stat": 21499.5,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_ikea": 3799.0,
+        "median_jumia": 897.0,
+        "plus_cher": "ikea"
+      },
+      "ikea_vs_kitea": {
+        "stat": 11993.0,
+        "p_value": 0.000482,
+        "significatif": true,
+        "median_ikea": 3799.0,
+        "median_kitea": 2595.0,
+        "plus_cher": "ikea"
+      },
+      "jumia_vs_kitea": {
+        "stat": 17937.0,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_jumia": 897.0,
+        "median_kitea": 2595.0,
+        "plus_cher": "kitea"
+      }
+    },
+    "Salon Et Sejour": {
+      "ikea_vs_jumia": {
+        "stat": 7276.0,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_ikea": 3999.0,
+        "median_jumia": 1379.0,
+        "plus_cher": "ikea"
+      },
+      "ikea_vs_kitea": {
+        "stat": 9557.5,
+        "p_value": 0.042646,
+        "significatif": true,
+        "median_ikea": 3999.0,
+        "median_kitea": 2495.0,
+        "plus_cher": "ikea"
+      },
+      "jumia_vs_kitea": {
+        "stat": 17868.5,
+        "p_value": 0.0,
+        "significatif": true,
+        "median_jumia": 1379.0,
+        "median_kitea": 2495.0,
+        "plus_cher": "kitea"
+      }
+    }
+  },
+  "regression": {
+    "r2": 0.1912,
+    "r2_adj": 0.1891,
+    "f_stat": 89.15,
+    "p_global": 0.0,
+    "coefficients": {
+      "Intercept": 4363.11,
+      "C(site)[T.jumia]": -2799.26,
+      "C(site)[T.kitea]": -869.99,
+      "C(categorie)[T.Mobilier Pro]": -483.64,
+      "C(categorie)[T.Rangement]": -1429.47,
+      "C(categorie)[T.Salle A Manger]": -75.09,
+      "C(categorie)[T.Salon Et Sejour]": 1028.16,
+      "en_promo_num": -456.33
+    },
+    "p_values": {
+      "Intercept": 0.0,
+      "C(site)[T.jumia]": 0.0,
+      "C(site)[T.kitea]": 0.0,
+      "C(categorie)[T.Mobilier Pro]": 0.0039,
+      "C(categorie)[T.Rangement]": 0.0,
+      "C(categorie)[T.Salle A Manger]": 0.6036,
+      "C(categorie)[T.Salon Et Sejour]": 0.0,
+      "en_promo_num": 0.0001
+    }
+  },
+  "evolution_prix": [
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-25",
+      "prix": 5522.28
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-26",
+      "prix": 5519.81
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-27",
+      "prix": 5512.36
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-28",
+      "prix": 5519.75
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-29",
+      "prix": 5517.78
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-30",
+      "prix": 5509.84
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-03-31",
+      "prix": 5515.6
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-01",
+      "prix": 5200.8
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-02",
+      "prix": 5506.43
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-03",
+      "prix": 5525.94
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-04",
+      "prix": 5515.26
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-05",
+      "prix": 5533.52
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-06",
+      "prix": 5530.93
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-07",
+      "prix": 5512.16
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-08",
+      "prix": 5133.77
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-09",
+      "prix": 5523.87
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-10",
+      "prix": 5519.96
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-11",
+      "prix": 5520.98
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-12",
+      "prix": 5508.95
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-13",
+      "prix": 5516.84
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-14",
+      "prix": 5507.09
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-15",
+      "prix": 5198.77
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-16",
+      "prix": 5525.44
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-17",
+      "prix": 5514.03
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-18",
+      "prix": 5522.96
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-19",
+      "prix": 5510.1
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-20",
+      "prix": 5515.05
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-21",
+      "prix": 5523.33
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-22",
+      "prix": 5526.51
+    },
+    {
+      "site": "ikea",
+      "date_scraping": "2026-04-23",
+      "prix": 5515.09
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-25",
+      "prix": 1199.33
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-26",
+      "prix": 1198.92
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-27",
+      "prix": 1197.75
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-28",
+      "prix": 1198.42
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-29",
+      "prix": 1199.85
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-30",
+      "prix": 1200.04
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-03-31",
+      "prix": 1199.12
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-01",
+      "prix": 1122.26
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-02",
+      "prix": 1198.92
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-03",
+      "prix": 1197.56
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-04",
+      "prix": 1198.09
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-05",
+      "prix": 1199.79
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-06",
+      "prix": 1199.87
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-07",
+      "prix": 1197.93
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-08",
+      "prix": 1125.35
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-09",
+      "prix": 1199.33
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-10",
+      "prix": 1199.2
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-11",
+      "prix": 1199.95
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-12",
+      "prix": 1198.57
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-13",
+      "prix": 1198.36
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-14",
+      "prix": 1199.42
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-15",
+      "prix": 1123.26
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-16",
+      "prix": 1200.51
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-17",
+      "prix": 1200.33
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-18",
+      "prix": 1198.42
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-19",
+      "prix": 1199.1
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-20",
+      "prix": 1199.7
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-21",
+      "prix": 1198.21
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-22",
+      "prix": 1200.24
+    },
+    {
+      "site": "jumia",
+      "date_scraping": "2026-04-23",
+      "prix": 1201.12
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-25",
+      "prix": 3854.25
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-26",
+      "prix": 3864.71
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-27",
+      "prix": 3865.07
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-28",
+      "prix": 3854.68
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-29",
+      "prix": 3860.8
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-30",
+      "prix": 3852.18
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-03-31",
+      "prix": 3859.95
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-01",
+      "prix": 3644.02
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-02",
+      "prix": 3859.81
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-03",
+      "prix": 3859.93
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-04",
+      "prix": 3864.21
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-05",
+      "prix": 3861.14
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-06",
+      "prix": 3858.65
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-07",
+      "prix": 3861.72
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-08",
+      "prix": 3630.34
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-09",
+      "prix": 3861.75
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-10",
+      "prix": 3869.56
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-11",
+      "prix": 3858.45
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-12",
+      "prix": 3862.75
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-13",
+      "prix": 3863.08
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-14",
+      "prix": 3863.5
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-15",
+      "prix": 3626.34
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-16",
+      "prix": 3852.82
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-17",
+      "prix": 3859.93
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-18",
+      "prix": 3865.23
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-19",
+      "prix": 3861.16
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-20",
+      "prix": 3860.01
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-21",
+      "prix": 3859.03
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-22",
+      "prix": 3860.31
+    },
+    {
+      "site": "kitea",
+      "date_scraping": "2026-04-23",
+      "prix": 3861.2
+    }
+  ],
+  "anomalies": [
+    {
+      "product_id": "IKE-0000",
+      "nom": "KIVIK",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 27.1
+    },
+    {
+      "product_id": "IKE-0001",
+      "nom": "ROCKSJÖN",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 32.8
+    },
+    {
+      "product_id": "IKE-0002",
+      "nom": "EKTORP",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 29.6
+    },
+    {
+      "product_id": "IKE-0003",
+      "nom": "SALTSJÖBADEN",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 28.0
+    },
+    {
+      "product_id": "IKE-0004",
+      "nom": "LANDSKRONA",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 24.5
+    },
+    {
+      "product_id": "IKE-0005",
+      "nom": "SLATORP",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 28.7
+    },
+    {
+      "product_id": "IKE-0008",
+      "nom": "HYLTARP",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 26.8
+    },
+    {
+      "product_id": "IKE-0011",
+      "nom": "ÄPPLARYD",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 25.7
+    },
+    {
+      "product_id": "IKE-0012",
+      "nom": "EKHOLMA",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 22.0
+    },
+    {
+      "product_id": "IKE-0017",
+      "nom": "SÖDERHAMN",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 34.3
+    },
+    {
+      "product_id": "IKE-0112",
+      "nom": "SÖRVALLEN",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 27.1
+    },
+    {
+      "product_id": "IKE-0114",
+      "nom": "FRIHETEN",
+      "site": "ikea",
+      "categorie": "Rangement",
+      "variation_max_pct": 28.0
+    },
+    {
+      "product_id": "IKE-0115",
+      "nom": "ÄLVDALEN",
+      "site": "ikea",
+      "categorie": "Rangement",
+      "variation_max_pct": 23.0
+    },
+    {
+      "product_id": "IKE-0116",
+      "nom": "FRIHETEN / KLAGSHAMN",
+      "site": "ikea",
+      "categorie": "Rangement",
+      "variation_max_pct": 27.9
+    },
+    {
+      "product_id": "IKE-0124",
+      "nom": "UTÅKER",
+      "site": "ikea",
+      "categorie": "Rangement",
+      "variation_max_pct": 20.6
+    },
+    {
+      "product_id": "IKE-0128",
+      "nom": "LINDÅKRA",
+      "site": "ikea",
+      "categorie": "Rangement",
+      "variation_max_pct": 26.3
+    },
+    {
+      "product_id": "IKE-0135",
+      "nom": "HEMNES",
+      "site": "ikea",
+      "categorie": "Rangement",
+      "variation_max_pct": 30.7
+    },
+    {
+      "product_id": "IKE-0137",
+      "nom": "BRÄNNBOLL",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 23.8
+    },
+    {
+      "product_id": "IKE-0139",
+      "nom": "HERRÅKRA",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 22.6
+    },
+    {
+      "product_id": "IKE-0146",
+      "nom": "OSKARSHAMN",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 23.9
+    },
+    {
+      "product_id": "IKE-0147",
+      "nom": "DYVLINGE",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 30.8
+    },
+    {
+      "product_id": "IKE-0151",
+      "nom": "ISMANTORP",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 30.4
+    },
+    {
+      "product_id": "IKE-0154",
+      "nom": "IKEA PS LÖMSK",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 27.6
+    },
+    {
+      "product_id": "IKE-0155",
+      "nom": "SOTENÄS",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 30.2
+    },
+    {
+      "product_id": "IKE-0159",
+      "nom": "EKOLSUND",
+      "site": "ikea",
+      "categorie": "Salon Et Sejour",
+      "variation_max_pct": 27.9
+    },
+    {
+      "product_id": "IKE-0183",
+      "nom": "GLADSTAD",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 28.7
+    },
+    {
+      "product_id": "IKE-0185",
+      "nom": "KURA",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 27.7
+    },
+    {
+      "product_id": "IKE-0192",
+      "nom": "SLATTUM",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 24.2
+    },
+    {
+      "product_id": "IKE-0201",
+      "nom": "TARVA",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 28.4
+    },
+    {
+      "product_id": "IKE-0202",
+      "nom": "TÄRNKULLEN",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 27.5
+    },
+    {
+      "product_id": "IKE-0206",
+      "nom": "STJÄRNÖ",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 24.7
+    },
+    {
+      "product_id": "IKE-0211",
+      "nom": "RÅDMANSÖ",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 26.9
+    },
+    {
+      "product_id": "IKE-0212",
+      "nom": "IDANÄS",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 26.3
+    },
+    {
+      "product_id": "IKE-0214",
+      "nom": "TÄLLÅSEN",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 32.8
+    },
+    {
+      "product_id": "IKE-0215",
+      "nom": "GULLABERG",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 30.4
+    },
+    {
+      "product_id": "IKE-0229",
+      "nom": "NORDLI",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 24.9
+    },
+    {
+      "product_id": "IKE-0249",
+      "nom": "VESTMARKA",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 32.5
+    },
+    {
+      "product_id": "IKE-0252",
+      "nom": "VADSÖ",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 21.5
+    },
+    {
+      "product_id": "IKE-0256",
+      "nom": "ÅNNELAND",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 31.3
+    },
+    {
+      "product_id": "IKE-0257",
+      "nom": "VÅGSTRANDA",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 25.1
+    },
+    {
+      "product_id": "IKE-0260",
+      "nom": "ÅKREHAMN",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 22.8
+    },
+    {
+      "product_id": "IKE-0261",
+      "nom": "NÄSTABERG",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 24.7
+    },
+    {
+      "product_id": "IKE-0265",
+      "nom": "VANNAREID",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 24.3
+    },
+    {
+      "product_id": "IKE-0267",
+      "nom": "JÄTTETRÖTT",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 22.7
+    },
+    {
+      "product_id": "IKE-0269",
+      "nom": "PELLEPLUTT",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 33.1
+    },
+    {
+      "product_id": "IKE-0270",
+      "nom": "KULLEN",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 33.2
+    },
+    {
+      "product_id": "IKE-0272",
+      "nom": "KRONÖREN",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 25.2
+    },
+    {
+      "product_id": "IKE-0280",
+      "nom": "LACK",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 32.7
+    },
+    {
+      "product_id": "IKE-0281",
+      "nom": "NORDKISA",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 26.3
+    },
+    {
+      "product_id": "IKE-0288",
+      "nom": "GURSKEN",
+      "site": "ikea",
+      "categorie": "Chambre Adulte",
+      "variation_max_pct": 27.2
+    }
+  ]
+}
