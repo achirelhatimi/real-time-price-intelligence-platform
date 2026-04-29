@@ -93,3 +93,47 @@ def get_figure(nom: str):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+
+# ── NOUVEAUX ENDPOINTS v2.0 ──────────────────────────────────
+
+@app.get("/intervalles-confiance")
+def get_ic():
+    return RESULTS.get("intervalles_confiance", {})
+
+@app.get("/power-analysis")
+def get_power():
+    return RESULTS.get("power_analysis", {})
+
+@app.get("/correlation")
+def get_correlation():
+    return RESULTS.get("correlation", {})
+
+@app.get("/velocity")
+def get_velocity():
+    return RESULTS.get("velocity", {})
+
+@app.get("/alertes")
+def get_alertes(priorite: str = None, site: str = None):
+    alertes = RESULTS.get("alertes", [])
+    if priorite:
+        alertes = [a for a in alertes if a.get("priorite","").upper() == priorite.upper()]
+    if site:
+        alertes = [a for a in alertes if a.get("site","").lower() == site.lower()]
+    return {"total": len(alertes), "alertes": alertes}
+
+@app.get("/segmentation")
+def get_segmentation():
+    return RESULTS.get("segmentation", {})
+
+@app.get("/figure/{nom}")
+def get_figure_v2(nom: str):
+    valid = ["boxplot","barchart","scatter","promotions",
+             "evolution","ic","correlation","kde","velocity","segmentation"]
+    if nom not in valid:
+        raise HTTPException(404, f"Figure '{nom}' invalide. Valides: {valid}")
+    path = os.path.join(OUTPUT_DIR, f"fig_{nom}.json")
+    if not os.path.exists(path):
+        raise HTTPException(404, f"fig_{nom}.json pas encore généré")
+    with open(path, 'r') as f:
+        return json.load(f)

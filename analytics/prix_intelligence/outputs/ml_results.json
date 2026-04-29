@@ -1,0 +1,106 @@
+{
+  "modeles": {
+    "random_forest": {
+      "mae": 6.960554016870982,
+      "rmse": 47.45487847412351,
+      "r2": 0.9997498116875957,
+      "n_estimators": 100,
+      "features": [
+        "site_enc",
+        "cat_enc",
+        "remise_pct",
+        "ancien_prix",
+        "jour_semaine",
+        "prix_log",
+        "ancien_prix_log",
+        "ratio_prix"
+      ]
+    },
+    "linear_regression": {
+      "mae": 138.38626879618135,
+      "rmse": 443.9040842564253,
+      "r2": 0.9781080943208266
+    }
+  },
+  "meilleur_modele": "random_forest",
+  "feature_importance": {
+    "prix_log": 0.9932,
+    "ratio_prix": 0.0067,
+    "site_enc": 0.0001,
+    "cat_enc": 0.0,
+    "ancien_prix": 0.0,
+    "ancien_prix_log": 0.0,
+    "remise_pct": 0.0,
+    "jour_semaine": 0.0
+  },
+  "exemples_predictions": [
+    {
+      "site": "kitea",
+      "categorie": "Salon Et Sejour",
+      "remise_pct": 15,
+      "ancien_prix": 4200,
+      "prix_predit": 3590.0,
+      "marge_erreur": 7.0,
+      "intervalle": [
+        3583.0,
+        3597.0
+      ],
+      "confiance": "HAUTE",
+      "r2": 0.9997
+    },
+    {
+      "site": "jumia",
+      "categorie": "Chambre Adulte",
+      "remise_pct": 25,
+      "ancien_prix": 2000,
+      "prix_predit": 1506.0,
+      "marge_erreur": 7.0,
+      "intervalle": [
+        1499.0,
+        1513.0
+      ],
+      "confiance": "HAUTE",
+      "r2": 0.9997
+    },
+    {
+      "site": "ikea",
+      "categorie": "Rangement",
+      "remise_pct": 0,
+      "ancien_prix": 3500,
+      "prix_predit": 3498.0,
+      "marge_erreur": 7.0,
+      "intervalle": [
+        3491.0,
+        3505.0
+      ],
+      "confiance": "HAUTE",
+      "r2": 0.9997
+    },
+    {
+      "site": "kitea",
+      "categorie": "Salle A Manger",
+      "remise_pct": 30,
+      "ancien_prix": 5000,
+      "prix_predit": 3498.0,
+      "marge_erreur": 7.0,
+      "intervalle": [
+        3491.0,
+        3505.0
+      ],
+      "confiance": "HAUTE",
+      "r2": 0.9997
+    }
+  ],
+  "sites_valides": [
+    "ikea",
+    "jumia",
+    "kitea"
+  ],
+  "categories_valides": [
+    "Chambre Adulte",
+    "Mobilier Pro",
+    "Rangement",
+    "Salle A Manger",
+    "Salon Et Sejour"
+  ]
+}

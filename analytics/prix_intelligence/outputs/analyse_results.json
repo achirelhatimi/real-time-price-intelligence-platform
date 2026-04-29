@@ -1,6 +1,6 @@
 {
   "meta": {
-    "date_analyse": "2026-04-25 02:16",
+    "date_analyse": "2026-04-29 15:29",
     "nb_produits": 2647,
     "nb_categories": 5,
     "sites": [
@@ -269,454 +269,124 @@
   },
   "evolution_prix": [
     {
-      "site": "ikea",
       "date_scraping": "2026-03-25",
-      "prix": 5522.28
+      "prix": 5522.2788209121245
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-03-26",
-      "prix": 5519.81
+      "prix": 5519.8070077864295
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-03-27",
-      "prix": 5512.36
+      "prix": 5512.362447163515
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-03-28",
-      "prix": 5519.75
+      "prix": 5519.751012235818
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-03-29",
-      "prix": 5517.78
+      "prix": 5517.780144605116
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-03-30",
-      "prix": 5509.84
+      "prix": 5509.838798665183
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-03-31",
-      "prix": 5515.6
+      "prix": 5515.598053392659
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-01",
-      "prix": 5200.8
+      "prix": 5200.803392658509
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-02",
-      "prix": 5506.43
+      "prix": 5506.43232480534
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-03",
-      "prix": 5525.94
+      "prix": 5525.9433815350385
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-04",
-      "prix": 5515.26
+      "prix": 5515.264505005562
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-05",
-      "prix": 5533.52
+      "prix": 5533.515027808676
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-06",
-      "prix": 5530.93
+      "prix": 5530.92660734149
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-07",
-      "prix": 5512.16
+      "prix": 5512.158242491657
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-08",
-      "prix": 5133.77
+      "prix": 5133.768687430478
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-09",
-      "prix": 5523.87
+      "prix": 5523.873359288098
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-10",
-      "prix": 5519.96
+      "prix": 5519.960300333703
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-11",
-      "prix": 5520.98
+      "prix": 5520.982614015573
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-12",
-      "prix": 5508.95
+      "prix": 5508.950044493882
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-13",
-      "prix": 5516.84
+      "prix": 5516.844226918799
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-14",
-      "prix": 5507.09
+      "prix": 5507.09299221357
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-15",
-      "prix": 5198.77
+      "prix": 5198.768654060066
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-16",
-      "prix": 5525.44
+      "prix": 5525.43767519466
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-17",
-      "prix": 5514.03
+      "prix": 5514.030077864294
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-18",
-      "prix": 5522.96
+      "prix": 5522.956073414905
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-19",
-      "prix": 5510.1
+      "prix": 5510.103070077865
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-20",
-      "prix": 5515.05
+      "prix": 5515.054727474972
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-21",
-      "prix": 5523.33
+      "prix": 5523.333704115684
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-22",
-      "prix": 5526.51
+      "prix": 5526.5076974416015
     },
     {
-      "site": "ikea",
       "date_scraping": "2026-04-23",
-      "prix": 5515.09
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-25",
-      "prix": 1199.33
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-26",
-      "prix": 1198.92
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-27",
-      "prix": 1197.75
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-28",
-      "prix": 1198.42
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-29",
-      "prix": 1199.85
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-30",
-      "prix": 1200.04
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-03-31",
-      "prix": 1199.12
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-01",
-      "prix": 1122.26
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-02",
-      "prix": 1198.92
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-03",
-      "prix": 1197.56
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-04",
-      "prix": 1198.09
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-05",
-      "prix": 1199.79
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-06",
-      "prix": 1199.87
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-07",
-      "prix": 1197.93
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-08",
-      "prix": 1125.35
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-09",
-      "prix": 1199.33
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-10",
-      "prix": 1199.2
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-11",
-      "prix": 1199.95
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-12",
-      "prix": 1198.57
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-13",
-      "prix": 1198.36
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-14",
-      "prix": 1199.42
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-15",
-      "prix": 1123.26
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-16",
-      "prix": 1200.51
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-17",
-      "prix": 1200.33
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-18",
-      "prix": 1198.42
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-19",
-      "prix": 1199.1
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-20",
-      "prix": 1199.7
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-21",
-      "prix": 1198.21
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-22",
-      "prix": 1200.24
-    },
-    {
-      "site": "jumia",
-      "date_scraping": "2026-04-23",
-      "prix": 1201.12
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-25",
-      "prix": 3854.25
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-26",
-      "prix": 3864.71
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-27",
-      "prix": 3865.07
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-28",
-      "prix": 3854.68
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-29",
-      "prix": 3860.8
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-30",
-      "prix": 3852.18
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-03-31",
-      "prix": 3859.95
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-01",
-      "prix": 3644.02
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-02",
-      "prix": 3859.81
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-03",
-      "prix": 3859.93
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-04",
-      "prix": 3864.21
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-05",
-      "prix": 3861.14
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-06",
-      "prix": 3858.65
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-07",
-      "prix": 3861.72
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-08",
-      "prix": 3630.34
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-09",
-      "prix": 3861.75
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-10",
-      "prix": 3869.56
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-11",
-      "prix": 3858.45
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-12",
-      "prix": 3862.75
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-13",
-      "prix": 3863.08
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-14",
-      "prix": 3863.5
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-15",
-      "prix": 3626.34
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-16",
-      "prix": 3852.82
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-17",
-      "prix": 3859.93
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-18",
-      "prix": 3865.23
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-19",
-      "prix": 3861.16
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-20",
-      "prix": 3860.01
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-21",
-      "prix": 3859.03
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-22",
-      "prix": 3860.31
-    },
-    {
-      "site": "kitea",
-      "date_scraping": "2026-04-23",
-      "prix": 3861.2
+      "prix": 5515.087897664071
     }
   ],
   "anomalies": [
